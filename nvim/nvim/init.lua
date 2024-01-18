@@ -14,4 +14,5 @@ require('plugins.nullls')
 require('plugins.autoclose')
 require('plugins.lualine')
 require('plugins.kommentary')
-
+require('plugins.bufferline')
+require('toggleterm')

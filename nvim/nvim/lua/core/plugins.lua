@@ -40,5 +40,6 @@ require("lazy").setup({
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
     }, { 'b3nj5m1n/kommentary' },
-
+    {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
+    {'akinsho/toggleterm.nvim', version = "*", config = true}
 })

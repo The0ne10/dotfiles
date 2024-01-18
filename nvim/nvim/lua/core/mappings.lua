@@ -8,3 +8,5 @@ vim.keymap.set('n', '<leader>n', ':Neotree close<CR>')
 
 vim.keymap.set('n', '<leader>o', ':Neotree git_status<CR>')
 
+-- nvim
+vim.keymap.set('i', 'jj', '<ESC>', opts)
