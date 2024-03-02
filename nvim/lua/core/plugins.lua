@@ -11,7 +11,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
     {
         'nvim-telescope/telescope.nvim',
-        tag = '0.1.1',
+        tag = '0.1.4',
         dependencies = {'nvim-lua/plenary.nvim'}
 		}, {'neovim/nvim-lspconfig'},
 		{
@@ -34,7 +34,7 @@ require("lazy").setup({
         }
       },
       build = ":MasonUpdate" 
-    }, { 'jose-elias-alvares/null-ls.nvim' },
+    }, { 'jose-elias-alvarez/null-ls.nvim' },
     { 'm4xshen/autoclose.nvim' }, 
     {
     'nvim-lualine/lualine.nvim',
